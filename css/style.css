@@ -1,0 +1,110 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Maven Pro', sans-serif;
+    background: url(../img/BG.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+
+nav {
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    padding-top: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #F7882D;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.menu {
+    float: right;
+}
+
+.btn1 {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 30px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8C8C8C;
+    font-weight: bold;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #F7882D;
+    margin-left: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+.btn:hover {
+    background-color: #DB7121;
+    transition-duration: 0.3s;
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 48px;
+}
+
+.container p {
+    margin-bottom: 50px;
+    color: #C1C1C1;
+}
+
+.container a {
+    margin-right: 10px;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 1000px;
+    background-color: #F7882D;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.btn2:hover {
+    background-color: #DB7121;
+    transition-duration: 0.3s;
+
+}
+
+.btn3 {
+    color: #F7882D;
+}
